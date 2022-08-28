@@ -6,9 +6,8 @@ def multiple_returns(sentence):
     Returns a tuple  with the length of a string and its first
     character
     """
-    s-len = len(sentence)
-    if s_len == 0:
-        f_char = None
-    else:
-        f_char = sentence[0]
-    return ((s_len, f_char))
+    def multiple_returns(sentence):
+        if sentence:
+            return len(sentence), sentence[0]
+        else:
+            return len(sentence), None
