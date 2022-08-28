@@ -7,7 +7,7 @@
  * @p: PyObject
  * Return: no return
  */
-void print_python_list_info(PyObject *p)
+void print_python_list_info(PyObject *p);
 {
 	long int size, i;
 	PyListObject *list;
